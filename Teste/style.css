@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;;
+}
+
+body {
+   
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    background-color: #f3f3f3;
+    border-radius: 14px;
+    margin: 14px;
+    max-width: 380px;
+    min-width: 300px;
+    width: 100%;
+
+}
+
+.header{
+    background: linear-gradient(120deg, #185ca8 0%, #349df2 100%);
+    padding: 24px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+#selectEstado,
+ input{
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+
+}
+
+input[type=text]{
+    height: 40px;
+    padding: 10px;
+}
+
+input[type=submit]{
+    height: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#cadastrar,
+#consultar{
+    background-color: #185ca8 ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+   
+}
+
+#cadastrar:hover,
+#consultar:hover{
+    background-color: #349df2 ;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+#cadastrar:active,
+#consultar:active {
+    background-color: white;
+    color: black;
+}
+
